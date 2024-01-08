@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Field Guide</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+<body>
+     
+    <section id="header">
+        <h1>Pokemon Field Guide</h1>
+        <ul>
+            <li id="berries">Berries</li>
+            <li>Pokemon</li>
+        </ul>
+    </section>
+
+    <section id="berry-grid"></section>
+
+    <dialog id="berry-dialog">
+        <h2 id="berry-name">Pecha Berry</h2>
+        <img id="berry-image" src="pecha.png" alt="">
+        <p id="berry-text">"The Pecha berry is 40mm with a very-soft texture. The trees can grow up to 5 berries at a time."
+        </p>
+        <button id="berry-close">Close</button>
+    </dialog>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="berries.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    font-family: 'M PLUS Code Latin', monospace;
+}
+#header{
+    display: flex;
+}
+#berry-dialog{
+    width: 25vw;
+    height: 50vh;
+}
+#berry-grid{
+    position: absolute;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 30px;
+}
+#berry-grid img{
+    width: 85px;
+    height: 90px;
+}
+#berry-text img{
+    width: 85px;
+    height: 90px;
+}
