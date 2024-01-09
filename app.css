@@ -23,7 +23,7 @@ body{
     width: 85px;
     height: 90px;
 }
-@media only screen and (max-width: 1080px) {
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
     #berry-grid {
         grid-template-columns: repeat(4, 1fr);
         gap: 10px; /* Adjust the gap as needed */
